@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./churras.css" />
+    <title>Churrascometro</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Churrascômetro</h1>
+      <p><em>Vou te passar a quantidade de carne e bebida para o seu churrasco, <br>com base na quantidade de pessoas e horas de duração do seu evento!</em></p>
+      <div class="content">
+        <div class="img">
+          <img src="./img/4524972.png" alt="">
+        </div>
+        
+        <div class="form">
+      <p>Insira o número de Adultos, Crianças e a duração (em horas) do evento:</p>
+      <input id="adultos" name="adultos" type="number" placeholder="Adultos" />
+      <input
+        id="criancas"
+        name="criancas"
+        type="number"
+        placeholder="Crianças"
+      />
+      <input id="duracao" name="duracao" type="number" placeholder="Duração (h)" />
+      <div id="resultado"></div>
+      <button onclick="calcular()">Faça o cálculo!</button>
+    </div>
+  </div>
+    
+  </body>
+  <script src="./churras.js"></script>
+</html>
